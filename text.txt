@@ -1,0 +1,26 @@
+root
+password
+cd ../
+ls
+mkdir name
+cd name
+suda apt install python3-venv
+python3 -m venv venv
+cd venv
+source bin/activate
+pip install -U pip 
+pip install -U setuptools
+pip install name
+sudo apt update && sudo apt upgrate
+
+для селениум
+ sudo apt install -y libxss1 libappindic ator1 libindicator7
+ sudo wget https://dl.google.com./linux/direct/google-chrome-stable_current_amd64.deb
+ sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+sudo apt install -y -f
+
+для работы в фоновом режиме
+sudo apt install screen
+source venv/bin/activate
+python3 name
